@@ -1,0 +1,47 @@
+{
+  "name": "checkmate",
+  "version": "1.0.0",
+  "description": "A chrome extension to help you organize your daily tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --progress --config webpack.dev.js",
+    "build": "webpack --watch --progress --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anandthanki1/checkmate.git"
+  },
+  "keywords": [
+    "todo",
+    "tasks",
+    "daily"
+  ],
+  "author": "officialanandthanki@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anandthanki1/checkmate/issues"
+  },
+  "homepage": "https://github.com/anandthanki1/checkmate#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.4.5",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.19"
+  }
+}
